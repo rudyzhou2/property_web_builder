@@ -95,8 +95,8 @@ Rails.application.configure do
     :user_name => Rails.application.secrets.sendgrid_username,
     :password => Rails.application.secrets.sendgrid_password
     # If deploying to heroku, set below in secrets.yml so above works
-    sendgrid_username: <%= ENV['SENDGRID_USERNAME'] %>
-    sendgrid_password: <%= ENV['SENDGRID_PASSWORD'] %>
+    # sendgrid_username: ENV["SENDGRID_USERNAME"]
+    # sendgrid_password: ENV["SENDGRID_PASSWORD"]
   }
   
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
