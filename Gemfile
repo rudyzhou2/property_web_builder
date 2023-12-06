@@ -20,6 +20,8 @@ ruby "3.1.2"
 # gem 'globalize-accessors'
 # gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 
+gem "source"
+
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 group :development, :test do
