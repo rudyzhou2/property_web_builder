@@ -13,6 +13,8 @@ gem "rails", "~> 7.0"
 
 ruby "3.1.2"
 
+gem "source"
+
 # gem 'globalize', git: 'https://github.com/globalize/globalize'
 # gem 'globalize', github: 'globalize/globalize'
 # below needed by above - (in gemspec)
